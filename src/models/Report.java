@@ -34,7 +34,7 @@ public class Report {
     private Integer id;
 
     @ManyToOne
-    @JoinColumn(name = "employee/id", nullable = false)
+    @JoinColumn(name = "employee_id", nullable = false)
     private Employee employee;
 
     @Column(name = "report_date", nullable = false)
